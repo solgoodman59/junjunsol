@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Honk', system-ui, sans-serif;
+    background-color: #990099cc;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-variation-settings: "MORF" 15, "SHLN" 50;
+    color: rgb(255, 255, 143);
+  }
+}
