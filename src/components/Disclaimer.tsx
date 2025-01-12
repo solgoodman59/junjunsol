@@ -15,11 +15,7 @@ const Disclaimer = () => {
           <AlertTriangle size={32} className="mx-auto mb-4 bg-black text-white p-1 rounded-full" />
           <h2 className="text-2xl font-bold mb-4 text-[rgb(255,255,143)]">Disclaimer</h2>
           <p className="text-[rgb(255,255,143)] text-sm leading-relaxed">
-            This is not financial advice. Cryptocurrencies are highly volatile and 
-            speculative assets. The content provided on this website is for 
-            informational purposes only. Do your own research and consult with a 
-            qualified financial advisor before making any investment decisions. 
-            Never invest more than you can afford to lose.
+          Junjun project is not affiliated with, endorsed by, or associated with any official organization or entity. This project is intended for entertainment purposes only and does not claim to provide financial advice, endorsements, or guarantees of any kind. $JUNJUN token has no intrinsic value, utility, or expectation of financial return.
           </p>
         </motion.div>
       </div>

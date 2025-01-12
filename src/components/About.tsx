@@ -17,14 +17,16 @@ const About = () => {
           <div className="bg-black/20 rounded-2xl border border-[rgb(255,255,143)]/20 shadow-[0_0_30px_rgba(255,255,143,0.2)] p-8">
             <div className="space-y-8 text-sm md:text-base text-[rgb(255,255,143)]">
               <p>
-                JunjunSol emerged from the vibrant Solana community as more than just another meme coin. 
-                We're a movement that combines the fun and excitement of meme culture with the innovative 
-                spirit of the Solana ecosystem.
+                Junjun, a brown bear cub born on January 4, 2024, at the Shanghai Zoo, has quickly become an internet sensation.
               </p>
               <p>
-                Born on Pumpfun and driven by our passionate community, JunjunSol represents the perfect 
-                blend of humor and serious potential. We believe that crypto doesn't always have to be 
-                serious to be valuable - sometimes the best opportunities come wrapped in a bit of fun!
+                Abandoned by his mother at birth, he was hand-reared by zookeepers who provided him with toys and his favorite foods.
+              </p>
+              <p>
+                His playful antics, adorable demeanor, and fluffy appearance—often compared to Duffy the Disney character—have captivated visitors and social media users worldwide, contributing to a surge in the zoo's popularity.
+              </p>
+              <p>
+                Junjun is now a part of the Solana community, bringing joy and excitement through meme culture.
               </p>
             </div>
           </div>

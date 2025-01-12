@@ -6,29 +6,71 @@ import meme3 from '../assets/images/memes/meme3.jpg';
 import meme4 from '../assets/images/memes/meme4.jpg';
 import meme5 from '../assets/images/memes/meme5.jpg';
 import meme6 from '../assets/images/memes/meme6.jpg';
+import video1 from '../assets/images/memes/video1.webp';
+import video2 from '../assets/images/memes/video2.webp';
+import video3 from '../assets/images/memes/video3.webp';
+import video4 from '../assets/images/memes/video4.webp';
+import video5 from '../assets/images/memes/video5.webp';
 
-const memes = [
+interface MediaItem {
+  type: 'image' | 'video';
+  url: string;
+  caption: string;
+}
+
+const memes: MediaItem[] = [
   {
+    type: 'image',
     url: meme1,
     caption: "To The Moon! 🚀"
   },
   {
+    type: 'video',
+    url: video1,
+    caption: "Junjun's First Steps! 🐾"
+  },
+  {
+    type: 'image',
     url: meme2,
     caption: "HODL Strong! 💎"
   },
   {
+    type: 'video',
+    url: video2,
+    caption: "Playtime with Junjun! 🧸"
+  },
+  {
+    type: 'image',
     url: meme3,
     caption: "Crypto Life! 🌟"
   },
   {
+    type: 'video',
+    url: video3,
+    caption: "Junjun's Adventures! 🎈"
+  },
+  {
+    type: 'video',
+    url: video4,
+    caption: "Junjun's Nap Time! 😴"
+  },
+  {
+    type: 'video',
+    url: video5,
+    caption: "Junjun's Playtime! 🎮"
+  },
+  {
+    type: 'image',
     url: meme4,
     caption: "JunJun Power! 🐻"
   },
   {
+    type: 'image',
     url: meme5,
     caption: "Community Strong! 💪"
   },
   {
+    type: 'image',
     url: meme6,
     caption: "Solana's Cutest Token! 🎯"
   }

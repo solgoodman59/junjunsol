@@ -52,10 +52,10 @@ const Banner = () => {
           className="text-center"
         >
           <h1 className="banner-title text-[rgb(255,255,143)] mb-2 md:mb-4 drop-shadow-[0_0_10px_rgba(255,255,143,0.5)]">
-            $JUNJUN
+            JUNJUN
           </h1>
           <p className="banner-subtitle text-[rgb(255,255,143)] mb-3 md:mb-4">
-            The meme coin that's out of this world! 🚀
+            The lucky orphan on Solana🐻
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-4 md:mb-6">

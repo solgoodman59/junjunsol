@@ -52,9 +52,13 @@ const Tokenomics = () => {
           className="max-w-3xl mx-auto text-center"
         >
           <Coins size={48} className="mx-auto mb-6 bg-black text-white p-2 rounded-full" />
-          <h2 className="text-xl md:text-2xl font-bold text-[rgb(255,255,143)] mb-8 drop-shadow-[0_0_10px_rgba(255,255,143,0.5)]">
+          <h2 className="text-xl md:text-2xl font-bold text-[rgb(255,255,143)] mb-4 drop-shadow-[0_0_10px_rgba(255,255,143,0.5)]">
             Tokenomics
           </h2>
+          
+          <p className="text-sm md:text-base text-[rgb(255,255,143)] mb-8">
+            The project was launched on Pumpfun with simple tokenomics.
+          </p>
           
           <motion.div
             className="bg-black/20 rounded-2xl border border-[rgb(255,255,143)]/20 shadow-[0_0_30px_rgba(255,255,143,0.2)] p-8"
