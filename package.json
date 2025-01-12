@@ -1,6 +1,7 @@
 {
   "name": "junjunsol-landing",
   "private": true,
+  "homepage": "https://junjunsol.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
