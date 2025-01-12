@@ -52,7 +52,7 @@ const Tokenomics = () => {
           className="max-w-3xl mx-auto text-center"
         >
           <Coins size={48} className="mx-auto mb-6 bg-black text-white p-2 rounded-full" />
-          <h2 className="text-5xl font-bold text-[rgb(255,255,143)] mb-8 drop-shadow-[0_0_10px_rgba(255,255,143,0.5)]">
+          <h2 className="text-xl md:text-2xl font-bold text-[rgb(255,255,143)] mb-8 drop-shadow-[0_0_10px_rgba(255,255,143,0.5)]">
             Tokenomics
           </h2>
           
@@ -64,8 +64,8 @@ const Tokenomics = () => {
             <div className="grid gap-8 text-[rgb(255,255,143)]">
               {tokenInfo.map((item, index) => (
                 <div key={index} className="border-b-2 border-[rgb(255,255,143)]/10 last:border-0 pb-6 last:pb-0">
-                  <div className="text-2xl font-bold mb-2">{item.label}</div>
-                  <div className="text-4xl md:text-5xl font-bold">
+                  <div className="text-lg font-bold mb-2">{item.label}</div>
+                  <div className="text-xl md:text-2xl font-bold">
                     {item.value}
                   </div>
                 </div>

@@ -73,7 +73,7 @@ const HowToBuy = () => {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-5xl font-bold text-[rgb(255,255,143)] text-center mb-12 drop-shadow-[0_0_10px_rgba(255,255,143,0.5)]">
+          <h2 className="text-xl md:text-2xl font-bold text-[rgb(255,255,143)] text-center mb-12 drop-shadow-[0_0_10px_rgba(255,255,143,0.5)]">
             How to Buy $JUNJUN
           </h2>
 
@@ -91,10 +91,10 @@ const HowToBuy = () => {
                     {step.icon}
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-[rgb(255,255,143)]">
+                    <h3 className="text-lg font-semibold text-[rgb(255,255,143)]">
                       {step.title}
                     </h3>
-                    <p className="text-[rgb(255,255,143)] mt-1">
+                    <p className="text-sm text-[rgb(255,255,143)] mt-1">
                       {step.description}
                     </p>
                   </div>

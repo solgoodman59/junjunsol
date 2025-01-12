@@ -89,7 +89,7 @@ const MemeCarousel = () => {
                   className="w-full h-full object-contain p-4"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-                  <p className="text-2xl text-[rgb(255,255,143)] text-center">
+                  <p className="text-sm md:text-base text-[rgb(255,255,143)] text-center">
                     {memes[currentIndex].caption}
                   </p>
                 </div>

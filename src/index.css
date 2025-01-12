@@ -4,12 +4,68 @@
 
 @layer base {
   body {
-    font-family: 'Honk', system-ui, sans-serif;
+    font-family: 'Press Start 2P', monospace;
     background-color: #990099cc;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-variation-settings: "MORF" 15, "SHLN" 50;
     color: rgb(255, 255, 143);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+    line-height: 1.4;
+    
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+
+  .banner-subtitle {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    
+    @media (min-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    font-size: 0.7rem;
+    line-height: 1.6;
+    
+    @media (min-width: 768px) {
+      font-size: 0.8rem;
+    }
+  }
+
+  .tokenomics-value {
+    font-size: 0.8rem;
+    padding: 0.25rem 0;
+    
+    @media (min-width: 768px) {
+      font-size: 1rem;
+      padding: 0.5rem 0;
+    }
   }
 }
