@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion';
+import FloatingParticles from './common/FloatingParticles';
 
 const About = () => {
   return (
-    <section className="py-10">
-      <div className="container mx-auto px-4">
+    <section className="py-10 relative overflow-hidden">
+      <FloatingParticles />
+      <div className="container mx-auto px-4 relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -12,7 +14,7 @@ const About = () => {
           className="max-w-3xl mx-auto text-center"
         >
           <h2 className="text-xl md:text-2xl font-bold text-[rgb(255,255,143)] mb-8 drop-shadow-[0_0_10px_rgba(255,255,143,0.5)]">
-            About JunjunSol
+            About Junjun
           </h2>
           <div className="bg-black/20 rounded-2xl border border-[rgb(255,255,143)]/20 shadow-[0_0_30px_rgba(255,255,143,0.2)] p-8">
             <div className="space-y-8 text-sm md:text-base text-[rgb(255,255,143)]">

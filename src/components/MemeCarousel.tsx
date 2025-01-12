@@ -22,57 +22,57 @@ const memes: MediaItem[] = [
   {
     type: 'image',
     url: meme1,
-    caption: "To The Moon! 🚀"
+    caption: "Soon.... 🚀🌙"
   },
   {
     type: 'video',
     url: video1,
-    caption: "Junjun's First Steps! 🐾"
+    caption: "When the market pumps 📈💰"
   },
   {
     type: 'image',
     url: meme2,
-    caption: "HODL Strong! 💎"
+    caption: "Eating the dip 🍯🐻"
   },
   {
     type: 'video',
     url: video2,
-    caption: "Playtime with Junjun! 🧸"
+    caption: "The real alpha 🧠💎"
   },
   {
     type: 'image',
     url: meme3,
-    caption: "Crypto Life! 🌟"
+    caption: "Posing for profile pic 📸✨"
   },
   {
     type: 'video',
     url: video3,
-    caption: "Junjun's Adventures! 🎈"
+    caption: "Junjun's Adventures! 🎈🌟"
   },
   {
     type: 'video',
     url: video4,
-    caption: "Junjun's Nap Time! 😴"
+    caption: "Cutebomb 💝💫"
   },
   {
     type: 'video',
     url: video5,
-    caption: "Junjun's Playtime! 🎮"
+    caption: "Watching jeets fade 👋😴"
   },
   {
     type: 'image',
     url: meme4,
-    caption: "JunJun Power! 🐻"
+    caption: "Smilebomb for hodlers 😊💖"
   },
   {
     type: 'image',
     url: meme5,
-    caption: "Community Strong! 💪"
+    caption: "Community Strong! 🤝💪"
   },
   {
     type: 'image',
     url: meme6,
-    caption: "Solana's Cutest Token! 🎯"
+    caption: "Solana's Cutest Token! 🐻✨"
   }
 ];
 
@@ -107,8 +107,27 @@ const MemeCarousel = () => {
   };
 
   return (
-    <section className="py-10">
-      <div className="container mx-auto px-4">
+    <section className="py-10 relative overflow-hidden">
+      <div className="absolute inset-0">
+        {[...Array(10)].map((_, i) => (
+          <motion.div
+            key={i}
+            className="absolute w-4 h-4 bg-[rgb(255,255,143)]/30 rounded-full blur-sm"
+            animate={{
+              y: ['0vh', '40vh'],
+              x: Math.sin(i) * 100,
+            }}
+            initial={{ x: Math.random() * window.innerWidth, y: -20 }}
+            transition={{
+              duration: 10 + Math.random() * 10,
+              repeat: Infinity,
+              ease: 'linear',
+            }}
+          />
+        ))}
+      </div>
+
+      <div className="container mx-auto px-4 relative">
         <div className="relative h-[300px] max-w-2xl mx-auto overflow-hidden rounded-2xl">
           <AnimatePresence initial={false} custom={direction}>
             <motion.div
