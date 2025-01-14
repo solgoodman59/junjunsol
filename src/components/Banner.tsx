@@ -8,12 +8,12 @@ const Banner = () => {
   const socialLinks = [
     { 
       icon: <img src={twitterIcon} alt="Twitter" width={25} height={25} />, 
-      url: 'https://x.com/JunjunCTOsol', 
+      url: 'https://x.com/junjuntoken', 
       label: 'Twitter' 
     },
     { 
       icon: <img src={telegramIcon} alt="Telegram" width={25} height={25} />, 
-      url: 'https://t.me/JunjunCTOsol', 
+      url: 'https://t.me/junjuntoken', 
       label: 'Telegram' 
     },
     { 
